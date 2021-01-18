@@ -25,6 +25,7 @@ public interface UserService {
      *  根据userId 查询用户地址列表
      * @param userId
      * @return
+     * 测试git commit 提交规范
      */
     List<UserAddress> findUserAddressByUserId(String userId);
 
